@@ -57,71 +57,59 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #################################################################################################
 Running Commands for Setup of React App
-  344  npm install
-  345  npm start
-  346  npm audit fix --force
-  347  npm audit fix --force
-  348  npm audit fix
-  349  yarn install
-  350  yarn start
-  351  yarn
-  352  yarn restart
-  353  yarn start
-  354  yarn run test
-  355  yarn run test
-  356  yarn build
-  357  yarn install
-  358  yarn run test
-  359  npm audit fix --force
-  360  yarn install
-  361  yarn start
-  362  docker images
-  363  docker build . -t react:5
-  364  docker images
-  365  docker run -d react:5
-  366  docker logs 83e617a295d2c0
-  367  docker ps
-  368  docker exec -it 83e617a295d2 sh
-  369  docker ps
-  370  ll
-  371  docker ps
-  372  docker rm -f 83e617a295d2
-  373  docker ps
-  374  yarn start
-  375  ll
-  376  history
-  377  rm -rf package-lock.json
-  378  docker build . -t react:6
-  379  docker images
-  380  docker build . -t react:6
-  381  docker images
-  382  docker build . -t react:6
-  383  docker build . -t react:6
-  384  docker build . -t react:6
-  385  docker images
-  386  docker run -d react:6
-  387  docker logs 77f0267e82ab7f1b84381dd8eb1b16423bc0164fd0b9156963a07c8b1a99c8a5
-  388  docker ps
-  389  docker exec -it 77f0267e82ab sh
-  390  docker ps
-  391  docker stop 77f0267e82ab
-  392  docker start -d -p 80:3000 77f0267e82ab
-  393  docker start -p 80:3000 77f0267e82ab
-  394  docker rm -f 77f0267e82ab
-  395  docker run -d -p 80:3000 react:6
-  396  docker logs 129990d6735b2
-  397  docker logs 129990d6735b2
-  398  docker login
-  399  docker tag saikrish12345/reactappsample react:6
-  400  docker tag  react:6 saikrish12345/reactappsample
-  401  docker push saikrish12345/reactappsample
-  402  docker push saikrish12345/reactappsample
-  403  docker ps
-  404  docker rm -f 129990d6735b
-  405  docker -d -p 80:3000 react:6
-  406  docker run -d -p 80:3000 react:6
-  407  docker logs
-  408  docker logs 9a67a238ab9588b018b0600bdd08ab95ad414010b8ae32bfafe2e44dc7c59a44
-  409  docker logs 9a67a238ab9588b018b0600bdd08ab95ad414010b8ae32bfafe2e44dc7c59a44
-  410  docker logs 9a67a238ab9588b018b0600bdd08ab95ad414010b8ae32bfafe2e44dc7c59a44
+  344->  npm install
+  345->  npm start
+  346->  npm audit fix --force
+  347->  npm audit fix --force
+  348->  npm audit fix
+  349->  yarn install
+  350->  yarn start
+  351->  yarn
+  352-> yarn restart
+  353->  yarn start
+  354->  yarn run test
+  355->  yarn run test
+  356->  yarn build
+  357->  yarn install
+  358->  yarn run test
+  359->  npm audit fix --force
+  360->  yarn install
+  361->  yarn start
+  362->  docker images
+  363->  docker build . -t react:5
+  364->  docker images
+  365->  docker run -d react:5
+  366->  docker logs 83e617a295d2c0
+  367->  docker ps
+  368->  docker exec -it 83e617a295d2 sh
+  369->  docker ps
+  371->  docker ps
+  372->  docker rm -f 83e617a295d2
+  373->  docker ps
+  374->  yarn start
+  386->  docker run -d react:6
+  387->  docker logs 77f0267e82ab7f1b84381dd8eb1b16423bc0164fd0b9156963a07c8b1a99c8a5
+  388->  docker ps
+  389->  docker exec -it 77f0267e82ab sh
+  390->  docker ps
+  391->  docker stop 77f0267e82ab
+  392->  docker start -d -p 80:3000 77f0267e82ab
+  393->  docker start -p 80:3000 77f0267e82ab
+  394->  docker rm -f 77f0267e82ab
+  395->  docker run -d -p 80:3000 react:6
+  396->  docker logs 129990d6735b2
+  397->  docker logs 129990d6735b2
+  398->  docker login
+  399->  docker tag saikrish12345/reactappsample react:6
+  400->  docker tag  react:6 saikrish12345/reactappsample
+  401->  docker push saikrish12345/reactappsample
+  402->  docker push saikrish12345/reactappsample
+  403->  docker ps
+  404->  docker rm -f 129990d6735b
+  405->  docker -d -p 80:3000 react:6
+  406->  docker run -d -p 80:3000 react:6
+  407->  docker logs
+  408->  docker logs 9a67a238ab9588b018b0600bdd08ab95ad414010b8ae32bfafe2e44dc7c59a44
+  409->  docker logs 9a67a238ab9588b018b0600bdd08ab95ad414010b8ae32bfafe2e44dc7c59a44
+  410->  docker logs 9a67a238ab9588b018b0600bdd08ab95ad414010b8ae32bfafe2e44dc7c59a44
   
