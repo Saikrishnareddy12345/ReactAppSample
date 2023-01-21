@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: executing remote ssh commands using password
-      uses: Saikrishnareddy12345/ReactAppSample@v0.1.7
+      uses: Saikrishnareddy12345/ReactAppSample@main
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
