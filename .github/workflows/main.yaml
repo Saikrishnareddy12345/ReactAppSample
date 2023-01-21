@@ -11,6 +11,7 @@ jobs:
           host: ${{ secrets.HOSTNAME }}
           username: ${{ secrets.USER_NAME }}
           key: ${{ secrets.AWS_PRIVATE_KEY }}
+          port: ${{ secrets.PORT }}
           script: |
             cd ~/home/ec2-user/react/Snapshot
             npm install
