@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: aSaikrishnareddy12345/ReactAppSample@main
+        uses: Saikrishnareddy12345/ReactAppSample@main
         env:
               PRIVATE_KEY: ${{ secrets.AWS_PRIVATE_KEY  }}
               HOSTNAME : ${{ secrets.HOSTNAME  }}
